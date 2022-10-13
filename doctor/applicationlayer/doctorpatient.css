@@ -1,0 +1,391 @@
+html,body{
+	margin-top: 0;
+	padding: 0;
+	width: 100%;
+}
+
+body{
+	height: 100vh;
+   /* background-color: linear-gradient(120deg,#3a23ad #310936);*/
+   background-image: url("https://lh5.googleusercontent.com/_tjVsI1Q_B2ryH19ix1LP7hcoccWXFonzeGQPtA_EMcYCQPiBdQYaqyYOegfTpVtXiMFgehh6ZQ0qN4hrvoBO3d7fo0cK0nVQ-kkI07TfcGg8_u53zMFVkXUedUVgd9O-Q=w1280");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 10px;
+    height: 20px;
+    
+}
+.header {
+    padding: 80px;
+    margin-left: 500px;
+    text-align: center;
+    color: rgb(49, 95, 186);
+    font-size: 30px;
+    background-color: transparent;
+    border: transparent;
+    width: 400px;
+  }
+
+
+  .buttonA{
+	position: absolute;
+	top: 65%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.buttonA{
+	background: none;
+	color: rgb(208, 5, 5);
+	width: 240px;
+	height: 80px;
+	border:3px solid darkorange;
+	font-size: 25px;
+	border-radius: 4px;
+	transition: .6s;
+	overflow: hidden;
+
+}
+.buttonA:focus{
+	outline: none;
+    background:yellow;
+    
+}
+
+.buttonA:before{
+    content: '';
+    display: block;
+    position: absolute;
+    background: #aa6533;
+    width: 60px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: .5;
+    filter: blur(30px);
+    transform: translateX(-130px) skewX(-15deg);
+}
+
+.buttonA:after{
+    content: '';
+    display: block;
+    position: absolute;
+    background: #12b569;
+    width: 30px;
+    height: 100%;
+    left: 30px;
+    top: 0;
+    opacity: 0;
+    filter: blur(30px);
+    transform: translateX(-100px) scaleX(-15deg);
+}
+
+.buttonA:hover:before {
+   transform: translateX(300px) skewX(-15deg);
+    opacity: .6;
+    transition: .7s;
+}
+
+.buttonA:hover:after {
+   transform: translateX(300px) skewX(-15deg);
+    opacity: 1;
+    transition: .7s;
+}
+
+.buttonA:hover {
+  background: transparent;
+  cursor: pointer;
+}
+
+
+
+.buttonP{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.buttonP{
+	background: none;
+    color: #256a4a;
+    width: 240px;
+    height: 80px;
+    border: 3px solid #7cd955e8;
+    font-size: 25px;
+    border-radius: 4px;
+    transition: .6s;
+    overflow: hidden;
+
+}
+.buttonP:focus{
+	outline: none;
+    background:yellow;
+    
+}
+
+.buttonP:before{
+    content: '';
+    display: block;
+    position: absolute;
+    background: #33aa6b;
+    width: 60px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: .5;
+    filter: blur(30px);
+    transform: translateX(-130px) skewX(-15deg);
+}
+
+.buttonP:after{
+    content: '';
+    display: block;
+    position: absolute;
+    background: #12b569;
+    width: 30px;
+    height: 100%;
+    left: 30px;
+    top: 0;
+    opacity: 0;
+    filter: blur(30px);
+    transform: translateX(-100px) scaleX(-15deg);
+}
+
+.buttonP:hover:before {
+   transform: translateX(300px) skewX(-15deg);
+    opacity: .6;
+    transition: .7s;
+}
+
+.buttonP:hover:after {
+   transform: translateX(300px) skewX(-15deg);
+    opacity: 1;
+    transition: .7s;
+}
+
+.buttonP:hover {
+  background: transparent;
+  cursor: pointer;
+}
+
+
+.buttonD{
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.buttonD{
+	background: none;
+    color: rgb(55 34 214);
+    width: 240px;
+    height: 80px;
+    border: 3px solid #22b2f9d9;
+    font-size: 25px;
+    border-radius: 4px;
+    transition: .6s;
+    overflow: hidden;
+
+}
+.buttonD:focus{
+	outline: none;
+    background:yellow;
+    
+}
+
+.buttonD:before{
+    content: '';
+    display: block;
+    position: absolute;
+    background: #5fb6e8;
+    width: 60px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: .5;
+    filter: blur(30px);
+    transform: translateX(-130px) skewX(-15deg);
+}
+
+.buttonD:after{
+    content: '';
+    display: block;
+    position: absolute;
+    background: #12b569;
+    width: 30px;
+    height: 100%;
+    left: 30px;
+    top: 0;
+    opacity: 0;
+    filter: blur(30px);
+    transform: translateX(-100px) scaleX(-15deg);
+}
+
+.buttonD:hover:before {
+   transform: translateX(300px) skewX(-15deg);
+    opacity: .6;
+    transition: .7s;
+}
+
+.buttonD:hover:after {
+   transform: translateX(300px) skewX(-15deg);
+    opacity: 1;
+    transition: .7s;
+}
+
+.buttonD:hover {
+  background: transparent;
+  cursor: pointer;
+}
+
+.buttonAB{
+	position: absolute;
+	top: 5%;
+	left: 10%;
+	transform: translate(-50%,-50%);
+	
+}
+.buttonAB{
+	background: none;
+	color: rgb(217, 101, 101);
+	width: 120px;
+	height: 60px;
+	border:3px solid #050505;
+	font-size: 25px;
+	border-radius: 4px;
+	transition: .6s;
+	overflow: hidden;
+
+}
+.buttonAB:focus{
+	outline: none;
+}
+
+.buttonAB:before{
+    content: '';
+    display: block;
+    position: absolute;
+    background: #fffefe;
+    width: 60px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: .5;
+    filter: blur(30px);
+    
+}
+
+.buttonAB:after{
+    content: '';
+    display: block;
+    position: absolute;
+    background: #fffdfd;
+    width: 30px;
+    height: 100%;
+    left: 30px;
+    top: 0;
+    opacity: 0;
+    filter: blur(30px);
+    
+}
+
+.buttonAB:hover:before {
+   
+    opacity: .6;
+    transition: .7s;
+}
+
+.buttonAB:hover:after {
+   
+    opacity: 1;
+    transition: .7s;
+}
+
+.buttonAB:hover {
+  background: #e0dbdb;
+  cursor: pointer;
+}
+.buttonC{
+	position: absolute;
+	top: 5%;
+	left: 25%;
+	transform: translate(-50%,-50%);
+	
+}
+.buttonC{
+	background: none;
+	color: rgb(163, 6, 235);
+	width: 120px;
+	height: 60px;
+	border:3px solid #050505;
+	font-size: 25px;
+	border-radius: 4px;
+	transition: .6s;
+	overflow: hidden;
+
+}
+.buttonC:focus{
+	outline: none;
+}
+
+.buttonC:before{
+    content: '';
+    display: block;
+    position: absolute;
+    background: #fffefe;
+    width: 60px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: .5;
+    filter: blur(30px);
+    
+}
+
+.buttonC:after{
+    content: '';
+    display: block;
+    position: absolute;
+    background: #fffdfd;
+    width: 30px;
+    height: 100%;
+    left: 30px;
+    top: 0;
+    opacity: 0;
+    filter: blur(30px);
+    
+}
+
+.buttonC:hover:before {
+   
+    opacity: .6;
+    transition: .7s;
+}
+
+.buttonC:hover:after {
+   
+    opacity: 1;
+    transition: .7s;
+}
+
+.buttonC:hover {
+  background: #e0dbdb;
+  cursor: pointer;
+}
+.top 
+{
+    position: absolute;
+	top: 5%;
+	left: 22%;
+	transform: translate(-50%,-50%);
+}
+.top
+{
+    background-color: #050505;
+	color: #050505;
+	width: 2700px;
+	height: 60px;
+	border:3px solid #050505;
+	font-size: 25px;
+	border-radius: 4px;
+	transition: .6s;
+	overflow: hidden;
+}
